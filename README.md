@@ -27,6 +27,8 @@ The code solves the following tasks:
   - `test`: Contains `images` and `labels` used for testing and evaluation.  
 - The `runs_solar` folder holds all the training outputs, including logs and saved model weights.
 - Two Jupyter Notebook files, `data_exploration.ipynb` and `yolov8.ipynb`, provide additional insights and the step-by-step implementation of the data processing and YOLOv8 training pipeline.
+- The `fundamental_functions.ipynb` computes IoU and calculates Average Precision (AP) using Pascal VOC 11 point interpolation, COCO 101-point interpolation method and Area under Precision-Recall Curve. It also 
+  compares the AP50 (Average Precision at IoU 0.5) computed by all 3 above mentioned methods.
 
 ---
 
